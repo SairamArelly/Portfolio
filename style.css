@@ -1,0 +1,178 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-link {
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #f39c12;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+header h1 {
+    font-size: 3rem;
+}
+header p {
+    font-size: 1.25rem;
+}
+
+/* About Section */
+
+#about {
+    background-color: #f8f9fa; 
+    padding: 50px 0;
+    
+    
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #007bff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    
+}
+
+#about img:hover {
+    transform: scale(1.05);
+}
+
+#about .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+}
+
+#about .about-text p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+
+/* Skills Section */
+#skills .card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+#skills .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills .card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#skills .card-text {
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+#skills .btn {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+}
+
+/* Education Section */
+
+#education .card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#education .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: aqua;
+}
+
+#education .card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#education .card-text {
+    font-size: 0.9rem;
+    color: #555555;
+    text-align: left;
+}
+
+
+
+/* Section styles */
+section {
+    padding: 60px 0;
+}
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+section p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+/* Projects styles */
+#projects .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#projects .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#projects .card-text{
+    text-align: left;
+}
+
+/* Contact form styles */
+form .form-label {
+    font-weight: bold;
+}
+form .btn {
+    background-color: #007bff;
+    border: none;
+}
+form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
